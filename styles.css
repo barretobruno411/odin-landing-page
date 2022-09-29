@@ -157,3 +157,9 @@ main aside blockquote{
 .bold {
     font-weight: bold;
 }
+.last-footer {
+    background-color: var(--dark-background-color);
+    color: var(--hero-secondary-text-color);
+    padding: 3vh 0;
+    text-align: center;
+}
