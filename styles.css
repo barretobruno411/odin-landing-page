@@ -125,3 +125,35 @@ main aside blockquote{
     flex-direction: column;
     align-items: flex-end
 }
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh var(--default-padding)
+}
+
+.card {
+    width: 100%;
+    background-color: var(--button-color);
+    padding: 5vh 10vh;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--hero-secondary-text-color);
+}
+
+.card button {
+    background-color: var(--button-color);
+    color: var(--hero-secondary-text-color);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+.bold {
+    font-weight: bold;
+}
