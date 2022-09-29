@@ -13,7 +13,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid white; */
+    /* border: 1px solid black; */
 }
 
 nav {
@@ -65,5 +65,47 @@ main header {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 10px;
+}
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    padding:  5vh var(--default-padding) 10vh;
+    
+}
 
+article h1 {
+    font-size: 36px;
+}
+
+.images-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.images-div figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* flex-grow: 0; */
+    
+}
+.images-div figure img {
+    border: solid 4px var(--button-color);
+    /* overflow: hidden; */
+    border-radius: 10px;
+    width: 200px;
+    /* flex-grow: 1; */
+}
+.images-div figure figcaption {
+    /* flex-grow: 0; */
+    /* flex-shrink: 1; */
+    width: 50%;
+    text-align: center;
+    color: var(--dark-background-color);
+    font-size: 18px;
 }
